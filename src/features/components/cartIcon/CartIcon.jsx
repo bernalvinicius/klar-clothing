@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './styles.scss';
 import { ReactComponent as ShoppingIcon } from '../../../assets/images/shopping-bag.svg';
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.scss';
 import { Link } from 'react-router-dom';
+
 import { ReactComponent as Logo } from '../../../assets/images/klar.svg';
 import CartIcon from '../cartIcon';
 

@@ -12,7 +12,7 @@ const sections = [
     linkUrl: 'shop/sapatos',
   },
   {
-    title: 'relogios',
+    title: 'relógios',
     imageUrl: 'https://i.imgur.com/TNLJowA.jpg',
     id: 3,
     linkUrl: 'shop/relogios',
