@@ -1,5 +1,5 @@
-const shop_data = [
-  {
+const shop_data = {
+  ternos: {
     id: 1,
     title: 'Ternos',
     routeName: 'ternos',
@@ -78,7 +78,7 @@ const shop_data = [
       },
     ],
   },
-  {
+  sapatos: {
     id: 2,
     title: 'Sapatos',
     routeName: 'sapatos',
@@ -157,7 +157,7 @@ const shop_data = [
       },
     ],
   },
-  {
+  relogios: {
     id: 3,
     title: 'Relógios',
     routeName: 'relogios',
@@ -236,7 +236,7 @@ const shop_data = [
       },
     ],
   },
-  {
+  calcas: {
     id: 4,
     title: 'Calças',
     routeName: 'calcas',
@@ -315,7 +315,7 @@ const shop_data = [
       },
     ],
   },
-  {
+  camisas: {
     id: 4,
     title: 'Camisas',
     routeName: 'camisas',
@@ -394,6 +394,6 @@ const shop_data = [
       },
     ],
   },
-];
+};
 
 export default shop_data;
