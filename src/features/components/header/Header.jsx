@@ -21,7 +21,7 @@ const Header = ({ hidden }) => {
           SHOP
         </Link>
         <Link className="option" to="/contact">
-          CONTACT
+          CADASTRAR PRODUTO
         </Link>
         <CartIcon />
         {hidden ? null : <CartDropdown />}
