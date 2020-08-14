@@ -24,23 +24,7 @@ const Header = ({ hidden, collections, addProduct }) => {
     setOpen(false);
   };
 
-  const addNewProduct = (item, category) => {
-    console.log('category: ', category);
-    /**
-     * This console.log() returns:
-     * category: ternos
-     */
-
-    console.log('item', item);
-    /**
-     * This console.log() returns:
-     * {
-     *  "product": "New suit",
-     *  "price": "259",
-     *  "imageUrl": "https://i.imgur.com/mcEvOpW.jpg"
-     * }
-     */
-  };
+  const addNewProduct = (item, category) => {};
 
   return (
     <>
