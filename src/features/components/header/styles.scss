@@ -12,7 +12,7 @@
   }
 
   .options {
-    width: 50%;
+    width: 60%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -21,6 +21,10 @@
     .option {
       padding: 10px 15px;
       cursor: pointer;
+
+      &:hover {
+        background-color: #f4f4f4;
+      }
     }
 
     .button {
@@ -30,6 +34,10 @@
       border: none;
       font-size: 16px;
       font-family: 'Open Sans Condensed';
+
+      &:hover {
+        background-color: #f4f4f4;
+      }
     }
   }
 }

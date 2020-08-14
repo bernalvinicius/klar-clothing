@@ -15,7 +15,7 @@ import React, { useState } from 'react';
 
 import { useStyles } from './styles';
 
-const AddProduct = ({ open, handleClose }) => {
+const AddProduct = ({ open, handleClose, addNewProduct }) => {
   const classes = useStyles();
 
   const [category, setCategory] = useState('');
@@ -25,6 +25,11 @@ const AddProduct = ({ open, handleClose }) => {
 
   const handleChange = (event) => {
     setCategory(event.target.value || '');
+  };
+
+  const addClothes = () => {
+    const item = { product, price, imageUrl };
+    addNewProduct(item, category);
   };
 
   return (
@@ -87,8 +92,7 @@ const AddProduct = ({ open, handleClose }) => {
             variant="contained"
             color="primary"
             className={classes.button}
-            // onClick={addProdutct}
-          >
+            onClick={addClothes}>
             Cadastrar
           </Button>
           <Typography onClick={handleClose} className={classes.cancel}>
