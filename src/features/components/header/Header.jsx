@@ -7,11 +7,11 @@ import { createStructuredSelector } from 'reselect';
 
 import { ReactComponent as Logo } from '../../../assets/images/klar.svg';
 import { selectCartHidden } from '../../../redux/cart/cart.selectors';
+import { addProduct } from '../../../redux/shop/shop.actions';
 import { selectCollectionsForPreview } from '../../../redux/shop/shop.selectors';
 import AddProduct from '../addProduct';
 import CartDropdown from '../cartDropdown';
 import CartIcon from '../cartIcon';
-import { addProduct } from '../../../redux/shop/shop.actions';
 
 const Header = ({ hidden, collections, addProduct }) => {
   const [open, setOpen] = useState(false);
