@@ -8,13 +8,17 @@ Se você quiser dar uma olhada em todas as telas da aplicação, elas estão [aq
 
 Este projeto faz parte do meu portfólio pessoal, fiz apenas com o intuito de aprimorar minhas habilidades em React.js, então, ficarei feliz se você pudesse me fornecer algum feedback sobre o projeto, código, estrutura ou qualquer coisa que você pode relatar que poderia me tornar um desenvolvedor melhor!
 
+
 Consiste em fazer um projeto que simula um E-Commerce (de roupas) utlizando React.
+
 
 O tanto quanto possível busquei construir uma interface amigável e funcional ao utilizador.
 
+
 Contacte-me: vini_bernal@hotmail.com
 
-Conecte-se a mim em [LinkedIn] (https://www.linkedin.com/in/vin%C3%ADcius-bernal-19254027/)
+
+Conecte-se a mim no [LinkedIn](https://www.linkedin.com/in/vin%C3%ADcius-bernal-19254027/)
 
 ## Algumas observações sobre esse App
 
