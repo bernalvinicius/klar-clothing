@@ -1,4 +1,4 @@
-# Klar Clothings - Mission Brasil
+# Klar Clothings
 
 ![Preview-Screens](https://raw.githubusercontent.com/bernalvinicius/klar-clothing/master/src/assets/images/klar.png)
 
