@@ -6,11 +6,15 @@ Se você quiser dar uma olhada em todas as telas da aplicação, elas estão [aq
 
 ## Porquê?
 
-Este projeto faz parte do processo seletivo para desenvolvedor Front-End enviado pela Mission Brasil.
+Este projeto faz parte do meu portfólio pessoal, fiz apenas com o intuito de aprimorar minhas habilidades em React.js, então, ficarei feliz se você pudesse me fornecer algum feedback sobre o projeto, código, estrutura ou qualquer coisa que você pode relatar que poderia me tornar um desenvolvedor melhor!
 
-O desafio consiste em fazer um projeto que simule um *E-Commerce* utlizando React. Escolhi criar um *E-Commerce* de roupas.
+Consiste em fazer um projeto que simula um E-Commerce (de roupas) utlizando React.
 
-O layout ficou de livre escolha, o tanto quanto possível busquei construir uma interface amigável e funcional ao utilizador.
+O tanto quanto possível busquei construir uma interface amigável e funcional ao utilizador.
+
+Contacte-me: vini_bernal@hotmail.com
+
+Conecte-se a mim em [LinkedIn] (https://www.linkedin.com/in/vin%C3%ADcius-bernal-19254027/)
 
 ## Algumas observações sobre esse App
 
@@ -21,8 +25,10 @@ O layout ficou de livre escolha, o tanto quanto possível busquei construir uma 
 **4** - O gerenciamento de estado da aplicação foi feito utlizando `redux`.
 
 ## Funcionalidades
+
 - Header component:
-    - Esse componente é fixo e é renderizado em todos as páginas, é possível acessar cada Menu da aplicação, ver o carrinho de compras e o modal de adicionar um Novo Produto;
+
+  - Esse componente é fixo e é renderizado em todos as páginas, é possível acessar cada Menu da aplicação, ver o carrinho de compras e o modal de adicionar um Novo Produto;
 
 - Home Page:
 
@@ -30,28 +36,32 @@ O layout ficou de livre escolha, o tanto quanto possível busquei construir uma 
   - Ao clicar no `card` de alguma categoria, o usuário é redirecionado para a página que mostra todos os items disponíveis para a respectiva categoria.
 
 - Shop Page:
-  - Na tela `shop page`, é renderizada uma lista que contém 1/3 dos produtos de todas as categorias. Cada categoria tem por *default* 12 produtos cadastrados. Então na página *shop page* aparecerem 4 produtos de cada uma das 5 categorias;
+
+  - Na tela `shop page`, é renderizada uma lista que contém 1/3 dos produtos de todas as categorias. Cada categoria tem por _default_ 12 produtos cadastrados. Então na página _shop page_ aparecerem 4 produtos de cada uma das 5 categorias;
   - O usuário tem a opção de clicar no produto que gosta e adicionar ao carrinho;
 
 - Category Page:
-    - Nessa tela aparecem todos os produtos da respectiva categoria que o usuário clicou, ele tem a opção de adicionar ao carrinho, ver a foto, descrição e preço do produto.
+
+  - Nessa tela aparecem todos os produtos da respectiva categoria que o usuário clicou, ele tem a opção de adicionar ao carrinho, ver a foto, descrição e preço do produto.
 
 - Carrinho de Compras:
-    - Quando o utilizador clica em `Add ao Carrinho`, o componente do do carrinho de compras é atualizando adicionando um novo item a lista já existente;
-    - Ao clicar no ícone do Carrinho de Compras, o usuário pode ver cada item da sua lista, e também tem a opção de clicar no botão de `Finalizar Compra`. Ao clicar nesse botão, ele é direcionado para a `checkout page`.
+
+  - Quando o utilizador clica em `Add ao Carrinho`, o componente do do carrinho de compras é atualizando adicionando um novo item a lista já existente;
+  - Ao clicar no ícone do Carrinho de Compras, o usuário pode ver cada item da sua lista, e também tem a opção de clicar no botão de `Finalizar Compra`. Ao clicar nesse botão, ele é direcionado para a `checkout page`.
 
 - Checkout Page:
-    - Nessa página é exibido ao utilizador uma tabela com 5 colunas: Produto, Descrição, Quantidade, Preço e Remover;
-    - Com essa tabela, é possível visualizar cada um dos itens que foi adicionado ao carrinho;
-    - O utilizador pode subtratir/adicionar itens ao carrinho clicando nos botões disponibilizados na coluna quantidade;
-    - O utilizador pode remover totalmente o item do carrinho, mesmo que o respectivo item esteja sendo comprado em várias quantidades;
-    - É renderizado dinamicamente ao utilizador o valor total de sua compra, bem como a quantidade de itens existentes no carrinho;
+
+  - Nessa página é exibido ao utilizador uma tabela com 5 colunas: Produto, Descrição, Quantidade, Preço e Remover;
+  - Com essa tabela, é possível visualizar cada um dos itens que foi adicionado ao carrinho;
+  - O utilizador pode subtratir/adicionar itens ao carrinho clicando nos botões disponibilizados na coluna quantidade;
+  - O utilizador pode remover totalmente o item do carrinho, mesmo que o respectivo item esteja sendo comprado em várias quantidades;
+  - É renderizado dinamicamente ao utilizador o valor total de sua compra, bem como a quantidade de itens existentes no carrinho;
 
 - Dialog Cadastrar Produto:
-    - Ao clicar no botão `Cadastrar Produto`, é renderizado ao utilizador um Dialog Modal com 4 campos a serem preenchidos:
-        - Categoria do Produto, com um `Menu Select`o utilizador pode escolher entre Ternos, Sapatos, Relógios, Calças ou Camisas;
-        - Após selecionar a Categoria, deve preencher os inputs de Nome, Preço e URL do Produto;
-        - Essa funcionalidade não está aplicada;
+  - Ao clicar no botão `Cadastrar Produto`, é renderizado ao utilizador um Dialog Modal com 4 campos a serem preenchidos:
+    - Categoria do Produto, com um `Menu Select`o utilizador pode escolher entre Ternos, Sapatos, Relógios, Calças ou Camisas;
+    - Após selecionar a Categoria, deve preencher os inputs de Nome, Preço e URL do Produto;
+    - Essa funcionalidade não está aplicada;
 
 ## Iniciando a Aplicação
 
@@ -120,7 +130,7 @@ Após a criação de todos esse arquivos e extensões, foram instaldas as seguin
 - [redux](https://redux.js.org/) - Redux é um contêiner de estado previsível para aplicativos JavaScript.
 - [redux-logger](https://github.com/LogRocket/redux-logger#readme) - Uma ferramenta de registro Redux de produção que permite reproduzir problemas como se eles tivessem acontecido em seu próprio navegador.
 - [redux-persist](https://github.com/rt2zz/redux-persist#readme) - O uso básico envolve adicionar `persistReducer` e `persistStore` à configuração da aplicação.
-- [reselect](https://github.com/reduxjs/reselect#readme) - Biblioteca *seletora* simples para Redux, inspirada em getters do NuclearJS, assinaturas em re-frame e speedskater.
+- [reselect](https://github.com/reduxjs/reselect#readme) - Biblioteca _seletora_ simples para Redux, inspirada em getters do NuclearJS, assinaturas em re-frame e speedskater.
 - [ESlint](https://eslint.org/) - Linter
 - [eslint-config-airbnb](https://github.com/airbnb/javascript) - Este pacote fornece o .eslintrc do Airbnb como uma configuração compartilhada extensível
 - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier#readme) - Desativa todas as regras desnecessárias ou que podem entrar em conflito com o Prettier
